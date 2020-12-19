@@ -1,0 +1,273 @@
+body {
+  /* border: 1px solid red; */
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.wrapper {
+  max-width: 1410px;
+  margin: auto;
+  /* border: 1px solid blue; */
+}
+.header-container {
+  background: #202020;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.header button {
+  border: 1px solid gray;
+  background: none;
+  color: white;
+  padding: 30px;
+}
+.header img {
+  position: relative;
+  left: 460px;
+  width: 130px;
+  margin: 10px;
+}
+.header-button a {
+  color: white;
+  text-decoration: none;
+}
+.header-menu {
+  border: 1px solid gray;
+}
+.menu {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.hero {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100vw;
+}
+.hero-message {
+  width: 571px;
+  height: 600px;
+  /* border: 1px solid red; */
+  color: white;
+}
+.hero-height {
+  /* border: 1px solid red; */
+  padding: 130px 0;
+}
+.hero-height h1 {
+  font-size: 40px;
+}
+.hero-height p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.hero-height button {
+  background: red;
+  padding: 20px 30px;
+  border: none;
+}
+.hero-height button a {
+  color: white;
+  text-decoration: none;
+}
+.wrapper.spider {
+  display: flex;
+  gap: 30px;
+  /* border: 1px solid red; */
+  padding: 25px;
+  position: relative;
+  top: -50px;
+  z-index: 2;
+  background: white;
+}
+.spider-p {
+  color: red;
+}
+.wrapper.spider p {
+  font-weight: 700;
+}
+.spider-gift {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.christmas-gift {
+  /* display: flex; */
+  /* border: 1px solid red; */
+  background: #202020;
+  /* margin-top: -100px; */
+}
+.button-gift {
+  background: none;
+  border: 1px solid gray;
+  color: white;
+  padding: 20px 40px;
+}
+.button-gift a {
+  color: white;
+  text-decoration: none;
+  /* padding: 30px 30px; */
+}
+.section-gift {
+  background: white;
+}
+.gift-message {
+  /* border: 1px solid red; */
+  width: 404px;
+  height: 300px;
+}
+.gift {
+  background: white;
+  gap: 20px;
+  position: relative;
+  top: -100px;
+  display: flex;
+  margin-bottom: -100px;
+}
+.p-700 {
+  font-weight: 700;
+}
+.gift-box {
+  /* border: 1px solid red; */
+  padding: 30px;
+  width: 264px;
+}
+.section-last {
+  display: flex;
+  margin-bottom: 20px;
+  /* border: 1px solid red; */
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  gap: 30px;
+}
+.section-last h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: gray;
+  margin: 5px 0;
+}
+.section-last p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 497px;
+}
+.title-section-last {
+  font-size: 26px;
+  font-weight: 700;
+}
+.way-to-pay-container {
+  background: black;
+}
+.wrapper.way-to-pay {
+  display: flex;
+  background: black;
+}
+.way-to-pay {
+  display: flex;
+  background: black;
+  /* justify-content: space-between; */
+}
+.credito-marvel {
+  background: black;
+  color: white;
+  text-align: center;
+  /* border: 1px solid red; */
+  height: 200px;
+  margin: auto;
+}
+.credito-marvel h2 {
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+}
+.credito-marvel p {
+  font-size: 26px;
+  line-height: 30px;
+  width: 430px;
+}
+.credito-marvel button a {
+  color: white;
+  text-decoration: none;
+  /* padding: 30px 30px; */
+}
+.credito-marvel button {
+  background: red;
+  padding: 15px 30px;
+  border: none;
+}
+.p-red {
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+}
+.gift-box p {
+  width: 338px;
+  font-size: 24;
+  font-weight: 400;
+}
+.gift-box h1 {
+  margin: 0;
+}
+.gift-box button {
+  background: none;
+  border: 1px solid gray;
+  padding: 20px;
+}
+.gift-box button a {
+  color: white;
+  text-decoration: none;
+}
+.footer-container {
+  background: #202020;
+  padding: 80px 0;
+}
+.footer-menu {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+  /* text-ali/gn: start; */
+  justify-content: space-evenly;
+}
+.footer-menu li {
+  list-style: none;
+  line-height: 30px;
+}
+.footer-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.follow-marvel {
+  color: white;
+  /* gap: 20px; */
+}
+.follow-marvel  img {
+  /* display: f; */
+  margin: 0 5px;
+}
+.footer-img-logo {
+  width: 150px;
+  height: 50px;
+}
